@@ -293,7 +293,10 @@
 						"height": 600
 					},
 					"component": {
-						"displayName": "Try opening window"
+						"displayName": "Try opening window",
+						"preload": [
+							"$applicationRoot/windowShims/index.js"
+						]
 					},
 					"foreign": {
 						"services": {
@@ -323,7 +326,7 @@
 			},
 			"version": "1.0.0",
 			"publisher": "Noname",
-			"icons": [				
+			"icons": [
 			]
 		}
 	]
